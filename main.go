@@ -27,11 +27,9 @@ import (
 	cli "github.com/urfave/cli/v2"
 )
 
-const VERSION = "v0.0.0-development"
-const BUILD_TIME = ""
-const GO_VERSION = ""
-const GIT_REPO = ""
-const LATEST_GIT_COMMIT = ""
+var VERSION = "v0.0.1-alpha"
+var BUILD_TIME = ""
+var LATEST_UPDATE = ""
 
 // Metadata for current release
 const METADATA string = `{
@@ -78,11 +76,9 @@ func main() {
 		Copyright: fmt.Sprintf(md.Copyright, time.Now().Year()),
 		ExtraInfo: func() map[string]string {
 			return map[string]string{
-				"LICENSE":           md.License,
-				"BUILD_TIME":        BUILD_TIME,
-				"GO_VERSION":        GO_VERSION,
-				"GIT_REPO":          GIT_REPO,
-				"LATEST_GIT_COMMIT": LATEST_GIT_COMMIT,
+				"LICENSE":       md.License,
+				"BUILD_TIME":    BUILD_TIME,
+				"LATEST_UPDATE": LATEST_UPDATE,
 			}
 		},
 		Commands: Commands,
