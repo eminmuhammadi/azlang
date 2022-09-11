@@ -1,6 +1,7 @@
 # AzLang
 
 [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/eminmuhammadi)
+[![CodeQL](https://github.com/eminmuhammadi/azlang/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/eminmuhammadi/azlang/actions/workflows/codeql-analysis.yml)
 
 CLI based tool for visualizing and pronouncing Azerbaijani language (Azərbaycan dili).
 
