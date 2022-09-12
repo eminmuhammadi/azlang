@@ -25,4 +25,15 @@ azlang transform --input="Salam, Dünya!" --from="OFFICIAL_LATIN" --to="OLD_LATI
 Salam, Dynja!
 ```
 
+### phonetize
+```bash
+azlang phonetize --input="Salam, Dünya!" --origin="OFFICIAL_LATIN"
+sɑlɑm, dynjɑ!
+```
+
+```bash
+azlang phonetize --input="Салам, Дүнја!" --origin="CYRILLIC"
+sɑlɑm, dynjɑ!
+```
+
 ..To be continued
