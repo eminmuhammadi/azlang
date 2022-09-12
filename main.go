@@ -47,6 +47,7 @@ const METADATA string = `{
 // List of available commands
 var Commands = []*cli.Command{
 	cmd.Transform(),
+	cmd.Phonetize(),
 }
 
 // Entry point for the application
